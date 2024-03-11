@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employe management system PHP MySQL</title>
+    <style>
+        body{
+    background-color: #345688;
+    margin: 0;
+    padding: 0;
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 650px;
+    background-color: #fff; 
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid silver;
+}
+.form{
+    padding-bottom: 15px;   
+    margin:  0 20px;
+}
+.textfeild{
+    width: 100%;
+    height: 40px;
+    font-size: 19px;
+    border: 2px solid  #345688;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin:  10px 0;
+
+}
+.textbox{
+    width: 100%;
+    height: 80px;
+    font-size: 19px;
+    border: 2px solid  #345688;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin:  10px 0;
+}
+.btn{
+    width: 18%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin: 8px 4px;
+}
+.btn_color_1{ background-color: gray; }
+.btn_color_2{ background-color: rgb(9, 156, 9); }
+.btn_color_3{ background-color: yellowgreen; }
+.btn_color_4{ background-color: rgb(212, 5, 5); }
+.btn_color_5{ background-color: rgb(3, 3, 247); }
+
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Form with CSS</h1>
+        <div class="form">
+            <input type="text" name="" class="textfeild" placeholder="Employe Id" />
+            <input type="text" name="" class="textfeild" placeholder="Employe Name" />
+            <select name="" class="textfeild">
+                <option value="">Select Gender</option>
+                <option value="">male</option>
+                <option value="">female</option>
+                <option value="">other</option>
+            </select>
+            <input type="email" name="" class="textfeild" placeholder="Employe Email Address" />
+            <select name="" class="textfeild">
+                <option value="">Select Employe Department </option>
+                <option value="">IT</option>
+                <option value="">HR</option>
+                <option value="">Accouts</option>
+                <option value="">Sales</option>
+                <option value="">Business Development</option>
+                <option value="">Marketing</option>
+            </select>
+
+            <textarea class="textbox"name="" placeholder="Employe Address"></textarea>
+
+            <input type="submit" name="" value="Search" class="btn btn_color_1" />
+            <input type="submit" name="" value="Save" class="btn btn_color_2" />
+            <input type="submit" name="" value="Update" class="btn btn_color_3" />
+            <input type="submit" name="" value="Delete" class="btn btn_color_4" />
+            <input type="submit" name="" value="Clear" class="btn btn_color_5" />
+
+        </div>
+    </div>
